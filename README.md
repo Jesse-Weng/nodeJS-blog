@@ -79,7 +79,7 @@ eslint 会创建一个 .eslintrc.json 的配置文件，同时自动安装并添
 在开发博客之前，我们首先需要明确博客要实现哪些功能。由于此程序主要为了学习而用，所以只实现了博客最基本的功能，其余的功能（如归档、标签、分页等等）读者可自行实现。
 
 功能及路由设计如下：
-
+```
 1.注册
   i.注册页：GET /signup
   ii.注册（包含上传头像）：POST /signup
@@ -101,6 +101,7 @@ eslint 会创建一个 .eslintrc.json 的配置文件，同时自动安装并添
 7.留言
   i.创建留言：POST /comments
   ii.删除留言：GET /comments/:commentId/remove
+```
 由于此博客页面是后端渲染的，所以只通过简单的 <a>(GET) 和 <form>(POST) 与后端进行交互，如果使用 jQuery 或者其他前端框架（如 Angular、Vue、React 等等）可通过 Ajax 与后端交互，则 api 的设计应尽量遵循 Restful 风格。
 
 Restful
