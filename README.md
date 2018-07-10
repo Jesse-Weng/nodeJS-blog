@@ -122,10 +122,6 @@ http://developer.51cto.com/art/200908/141825.htm
 http://blog.jobbole.com/41233/
 
 
-## 通用组件
-
-* 通用组件统一放在 `/src/components` 目录
-
 ## 参考资料
 **NODEJS相关：**
 
